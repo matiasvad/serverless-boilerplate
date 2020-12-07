@@ -4,27 +4,22 @@
 	"description": "test",
 	"main": "index.js",
 	"scripts": {
-	  "test": "test"
+		"start": "webpack --watch --mode production"
 	},
 	"repository": {
-	  "type": "git",
-	  "url": "git+din_git_url_her"
+		"type": "git",
+		"url": "git@github.com:matiasvad/serverless-boilerplate.git"
 	},
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-	  "url": "din_git_url_her"
+		"url": "https://github.com/matiasvad/serverless-boilerplate"
 	},
-	"homepage": "din_git_url_her#readme",
+	"homepage": "https://github.com/matiasvad/serverless-boilerplate#readme",
 	"devDependencies": {
-	  "autoprefixer": "^10.0.4",
-	  "babel": "^6.23.0",
-	  "babel-core": "^6.26.3",
-	  "babel-loader": "^8.2.2",
-	  "babel-preset-env": "^1.7.0",
-	  "webpack": "^5.10.0"
-	},
-	"dependencies": {
-	  "fetch": "^1.1.0"
+		"copy-webpack-plugin": "^6.3.2",
+		"node-fetch": "^2.6.1",
+		"webpack": "^5.10.0",
+		"webpack-cli": "^4.2.0"
 	}
-  }
+}
