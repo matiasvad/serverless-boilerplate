@@ -1,0 +1,30 @@
+{
+	"name": "serverless-boilerplate",
+	"version": "1.0.0",
+	"description": "test",
+	"main": "index.js",
+	"scripts": {
+	  "test": "test"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+din_git_url_her"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+	  "url": "din_git_url_her"
+	},
+	"homepage": "din_git_url_her#readme",
+	"devDependencies": {
+	  "autoprefixer": "^10.0.4",
+	  "babel": "^6.23.0",
+	  "babel-core": "^6.26.3",
+	  "babel-loader": "^8.2.2",
+	  "babel-preset-env": "^1.7.0",
+	  "webpack": "^5.10.0"
+	},
+	"dependencies": {
+	  "fetch": "^1.1.0"
+	}
+  }
