@@ -4,9 +4,9 @@
 	"environment": {},
 	"secrets": [],
 	"endpoints": {
-	  "reqres": {
-		"method": "GET",
-		"file": "index.bundle.js"
-	  }
+	  	"reqres": {
+			"method": "GET",
+			"file": "index.bundle.js"
+	  	}
 	}
-  }
+}
